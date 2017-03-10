@@ -65,11 +65,63 @@
 	
 	<div class="container-fluid">
 	<h1>lorem lalalala</h1>
-	<p>lorem lalalalalallala <mark>lalalalalalalalal</mark> lalalalalalalalala <abbr>lalalalalalalalalalal</abbr> lalalalalalala lalalaalallalalalallalalalallallalallallallallalaallalalalallalallalalalaslallalalalalalalallalalallakaalklalañlalalalalalala</p> <!-- abbr abreviacion de un elemento y mark es resaltado, blockquote se hace una cita de un texto-->
-	<blockquote>
-		lalalallalalallalallalallalalallallalalallalalalallalalalallalallalallalallalalallala
+	<p>lorem lalalalalallala <mark>lalalalalalalalal</mark> lalalalalalalalala <abbr title="Organizacion de las Naciones Unidas">ONU</abbr> lalalalalalala lalalaalallalalalallalalalallallalallallallallalaallalalalallalallalalalaslallalalalalalalallalalallakaalklalañlalalalalalala</p> <!-- abbr abreviacion de un elemento y mark es resaltado, blockquote se hace una cita de un texto, el footer es para el autor, etc etc, el reverse lo alinea del otro lado-->
+	<blockquote class="blockquote-reverse">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ipsam praesentium nemo sint facilis atque aperiam dolorem iste enim quam, omnis veritatis, sit ut quos voluptate dolor, dignissimos veniam et!
 		<footer>from yo el gera pro master race</footer>
 	</blockquote>
+
+	<dl> <!--es una segunda forma de generar algunas listas, dt titulo, dd lo que va debajo del titulo, dl es un lista con estilo o estilada -->
+		<dt>Coffee</dt>
+		<dd>- Black Hot Drink</dd>
+		<dt>Milk</dt>
+		<dd>- White cold drink</dd>
+	</dl>
+
+    <div class="container">
+    	<h1>Code Snippets</h1>
+    	<p>Inline Snippets of code should be embed in the code element:</p>
+    	<p>The followind HTML elements: <code>span</code>,<code>section</code>, and <code>div</code> defines a section in the document</p> <!-- el code ponela etiqueta solo para mencionarla, sin que se use-->
+        <br>
+        <h1>keyboard Inputs</h1>
+    	<p>To indicate input that is typically entered via the keyboard, use the <code>kbd</code> element:</p>
+    	<p>Use <kbd>ctrl + p</kbd> to open the Print dialog box</p> <!-- kbd es keyboard y es para indicar un comando-->
+
+    </div>
+
+    <pre>Lorem ipsum dolor sit amet,
+     consectetur adipisicing elit. Ea adipisci dicta natus,
+      dolores aliquid, quaerat omnis totam praesentium. Tempora
+       voluptas excepturi velit odio optio alias, vero. 
+       Doloribus
+        dicta omnis iure.</pre> <!--esta etiqueta sirven para poner lineas de codigo, muestra el texto tal cual con los espacios y todo -->
+
+
 </div>
+
+<div class="container">
+	<h2>Contextual Colors</h2>
+	<p>Use the contextual classes to provide "meaning through colors:"</p>
+	<p class="text-muted">This text is muted gray</p>
+	<p class="text-primary">This text is important blue</p>
+	<p class="text-success">This indicates success green</p>
+	<p class="text-info">This text represents some information blue more dark </p>
+	<p class="text-warning">This text represents a warning yellow</p>
+	<p class="text-danger">This text represents danger red</p>
+</div>
+
+<div class="container">
+	<h2>Contextual Colors</h2>
+	<p>Use the contextual classes to provide "meaning through colors:"</p>
+	<p class="bg-muted">This text is muted gray</p>
+	<p class="bg-primary">This text is important blue</p>
+	<p class="bg-success">This indicates success green</p>
+	<p class="bg-info">This text represents some information blue more dark </p>
+	<p class="bg-warning">This text represents a warning yellow</p>
+	<p class="bg-danger">This text represents danger red</p>
+	<!-- esto es para resaltar texto un poco, con el comando bg nos da toda la linea de color no solo el texto-->
+</div>
+
+
 </body>
 </html>
