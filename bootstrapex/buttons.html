@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap Buttons</title>
+	<!-- Latest compiled and minified CSS cdn content delivery network -->
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- se configura con una vista viewport dispositivo posicionado hacia arriba, lanscape es para dispositivo horizontal, el ancho del elemento es el ancho del device menos el ancho de la pantalla completa -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library  manejar html mas simple-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript lo que usa el boot para manipular ciertas animaciones y elementos del html-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container"> <!--botones de colores wiiii -->
+	<button type="button" class="btn btn-default">Button</button>
+	<button type="button" class="btn btn-primary">Button</button>
+	<button type="button" class="btn btn-success">Button</button>
+	<button type="button" class="btn btn-info">Button</button>
+	<button type="button" class="btn btn-danger">Button</button>
+	<button type="button" class="btn btn-warning">Button</button>
+	<button type="button" class="btn btn-link">Button</button>
+</div>
+
+<div class="container"> <!-- 4 modos de generar un boton-->
+	<a href="#" class="btn btn-info" role="button">Link Button</a>
+<button type="button" class="btn btn-info">Button</button>
+<input type="button" class="btn btn-info" value="Input button"/>
+<input type="submit" class="btn btn-info" value="Submit button"/>
+</div>
+	
+    <div class="container"> <!--botones de colores wiiii -->
+	<button type="button" class="btn btn-default btn-lg">Button</button>
+	<button type="button" class="btn btn-primary btn-md">Button</button>
+	<button type="button" class="btn btn-success btn-sm">Button</button>
+	<button type="button" class="btn btn-info btn-xs">Button</button>
+	</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<button type="button" class="btn btn-primary btn-lg btn-block">Button</button> <!--btn lg grande,md mediano, sm pequenio, xs muy peque, y btn block pone el boton de todo el tamanio -->
+		</div>
+		<div class="col-md-6">
+			<button type="button" class="btn btn-default btn-lg btn-block">Button</button>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row"> <!--active pone el boton presionado y el otro sin activar -->
+		<div class="col-md-6">
+			<button type="button" class="btn btn-primary btn-lg btn-block active">Button</button> <!--btn lg grande,md mediano, sm pequenio, xs muy peque, y btn block pone el boton de todo el tamanio -->
+		</div>
+		<div class="col-md-6">
+			<button type="button" class="btn btn-default btn-lg btn-block disabled">Button</button>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
